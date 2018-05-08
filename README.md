@@ -36,11 +36,12 @@ npm i ultimate-guitar-scraper --save
 
 Type: `Object`
 
-| Name     | Type            | Require | Default              |
-|----------|-----------------|---------|----------------------|
-| query    | string          | yes     |                      |
-| page     | number          | no      | `1`                  |
-| type     | string or array | no      | `['Tab', 'Chords']` |
+| Name      | Type            | Require | Default              |
+|-----------|-----------------|---------|----------------------|
+| query     | string          | yes     |                      |
+| page      | number          | no      | `1`                  |
+| type      | string or array | no      | `['Tab', 'Chords']`  |
+| minRating | number          | no      | `0`                  |
 
 Available TAB types:
 - `'Video'`
